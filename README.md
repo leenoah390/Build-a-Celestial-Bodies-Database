@@ -7,3 +7,7 @@ Project 2:
 * insert_data.sh
 * queries.sh
 * worldcup.sql
+
+Project 3:
+* salon.sh
+* salon.sql
