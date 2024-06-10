@@ -11,3 +11,7 @@ Project 2:
 Project 3:
 * salon.sh
 * salon.sql
+
+Project 4:
+* element.sh
+* periodic_table.sql
