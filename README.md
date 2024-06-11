@@ -1,5 +1,6 @@
 # Relational Database
-freeCodeCamp\
+https://www.freecodecamp.org/certification/leenoah390/relational-database-v8  
+
 Project 1:
 * universe.sql
 
