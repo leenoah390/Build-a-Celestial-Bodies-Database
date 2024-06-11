@@ -15,3 +15,7 @@ Project 3:
 Project 4:
 * element.sh
 * periodic_table.sql
+
+Project 5:
+* number_guess.sh
+* number_guess.sql
