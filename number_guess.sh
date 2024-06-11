@@ -14,6 +14,9 @@ if [[ -z $NAME_ID ]]
   then
   echo -e "Welcome, $USERNAME! It looks like this is your first time here."
   INSERT_NAME=$($PSQL "INSERT INTO names(name) VALUES ('$USERNAME')")
+  # Get new name id
+  NAME_ID=$($PSQL "SELECT name_id FROM names WHERE name='$USERNAME'")
+
   # If name id exists, then print the stats
   else
   GAMES_PLAYED=$($PSQL "SELECT COUNT(*) FROM games WHERE name_id=$NAME_ID")
